@@ -7,7 +7,7 @@ setup(
     author='Vasilis Mourtakos',
     author_email='johndoe@example.com',
     url='https://github.com/vasilis-mourtakos/pydata_etl_pipeline',
-    packages=find_packages(),
+    packages=['etl_pipeline'],
     install_requires=[
         'numpy',
         'looker-sdk==21.8.1',
