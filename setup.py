@@ -1,13 +1,13 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='etl_pipeline',
+    name='etl_pipelines',
     version='1.0.0',
     description='A package for building ETL pipelines',
     author='Vasilis Mourtakos',
     author_email='johndoe@example.com',
     url='https://github.com/vasilis-mourtakos/pydata_etl_pipeline',
-    packages=['etl_pipeline'],
+    packages=['etl_pipelines'],
     install_requires=[
         'numpy',
         'looker-sdk==21.8.1',
